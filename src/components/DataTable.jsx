@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { fetchDataFromAPI } from "../services/api";
 
 // To use this during the load state
-function LoadingTableTableRows({defaultRows = 10}) {
+function LoadingTableTableRows({defaultRows = 7}) {
     return (
         [...Array(defaultRows)].map((x, index) =>
             <tr key={index} className="even:bg-gray-50 animate-pulse">
