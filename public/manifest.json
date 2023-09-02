@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "State management and API fetch task",
+  "name": "React App Task",
   "icons": [
     {
       "src": "favicon.ico",
